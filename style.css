@@ -30,5 +30,11 @@ body {
 }
 
 .section {
-    height: 50vh;
+    padding: 104px;
+    display: flex;
+    flex-direction: column;
+}
+
+.background2 {
+    background-color: #FBF1E7;
 }
