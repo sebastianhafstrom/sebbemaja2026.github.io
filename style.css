@@ -25,6 +25,10 @@ body {
     padding: 16px;
 }
 
+#loke {
+    width: 100%;
+}
+
 .section {
     height: 50vh;
 }
