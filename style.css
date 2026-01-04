@@ -1,0 +1,30 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+#nav {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#menu {
+    display: flex;
+}
+
+.menuitem {
+    padding: 16px;
+}
+
+.section {
+    height: 50vh;
+}
