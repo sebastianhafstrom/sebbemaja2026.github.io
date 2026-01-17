@@ -5,162 +5,199 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Maja & Sebbe 2026</title>
-    <link rel="stylesheet" href="style.css">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+    </style>
   </head>
-  <body id="body">
-    <div id="nav">
+  <body class="font-sans text-gray-900 leading-relaxed">
+    <div class="fixed top-0 left-0 right-0 h-16 flex justify-between items-center px-12 bg-white shadow-sm z-50">
       <div id="logo">
         S&M2026
       </div>
-      <div id="menu">
-        <div class="menuitem"><a href="#start">Start</a></div>
-        <div class="menuitem"><a href="#välkomna">Välkomna</a></div>
-        <div class="menuitem"><a href="#bröllopsdagen">Bröllopsdagen</a></div>
-        <div class="menuitem"><a href="#tal">Tal</a></div>
-        <div class="menuitem"><a href="#transport">Transport</a></div>
-        <div class="menuitem"><a href="#anmälan">Anmälan</a></div>
-        <div class="menuitem"><a href="#klädkod">Klädkod</a></div>
-        <div class="menuitem"><a href="#gåvor">Gåvor</a></div>
+      <div class="flex gap-2">
+        <div class="px-4 py-2"><a href="#start" class="text-sm text-gray-900 hover:text-gray-600 transition-colors no-underline">Start</a></div>
+        <div class="px-4 py-2"><a href="#välkomna" class="text-sm text-gray-900 hover:text-gray-600 transition-colors no-underline">Välkomna</a></div>
+        <div class="px-4 py-2"><a href="#bröllopsdagen" class="text-sm text-gray-900 hover:text-gray-600 transition-colors no-underline">Bröllopsdagen</a></div>
+        <div class="px-4 py-2"><a href="#tal" class="text-sm text-gray-900 hover:text-gray-600 transition-colors no-underline">Tal</a></div>
+        <div class="px-4 py-2"><a href="#transport" class="text-sm text-gray-900 hover:text-gray-600 transition-colors no-underline">Transport</a></div>
+        <div class="px-4 py-2"><a href="#anmälan" class="text-sm text-gray-900 hover:text-gray-600 transition-colors no-underline">Anmälan</a></div>
+        <div class="px-4 py-2"><a href="#klädkod" class="text-sm text-gray-900 hover:text-gray-600 transition-colors no-underline">Klädkod</a></div>
+        <div class="px-4 py-2"><a href="#gåvor" class="text-sm text-gray-900 hover:text-gray-600 transition-colors no-underline">Gåvor</a></div>
 
       </div>
     </div>
-    <div>
-      <div class="section" id="start">
-        <div>Vi ska gifta oss</div>
-        <div>Sebastian & Maja</div>
-        <div>Lördagen den 8e augusti 2026</div>
-        <div>Väringsö, Norrtälje</div>
-      </div>
-      <div class="section background2" id="välkomna">
-        <div class="flex items-center gap-4">
-          <div class="flex flex-col gap-4">
-            <h2>Varmt välkomna på vårt bröllop</h2>
-            <div>Här hittar ni all information som rör vårt bröllop i augusti – tider, plats, klädkod, transport och annat som kan vara bra att veta inför dagen.</div>
-            <div>Vi ber er att OSA senast [datum], mer information om OSA hittar ni här.</div>
-            <div>Hemsidan uppdateras löpande, så kika gärna in igen närmare bröllopet.</div>
-            <div>Vi ser verkligen fram emot att fira tillsammans med er!</div>
+    <div class="mt-16">
+      <div class="py-24 px-12 flex flex-col" id="start">
+        <div class="flex flex-col items-center justify-center min-h-screen gap-6">
+          <div class="text-center">
+            <img width="200px" height="200px" class="mx-auto mb-8" src="image.png" alt="Illustration av brudparet">
           </div>
-          <div>
-            <img width="600px" height="600px" class="rounded-full" src="image.png">
-          </div>
+          <div class="text-2xl font-light text-gray-600 tracking-wide">Vi ska gifta oss</div>
+          <div class="text-5xl font-bold tracking-tight">SEBASTIAN & MAJA</div>
+          <div class="text-xl text-gray-700 mt-4">Lördagen den 8 augusti, 2026</div>
+          <div class="text-lg text-gray-600">Väringsö, Norrtälje</div>
         </div>
-        
       </div>
-      <div class="section" id="bröllopsdagen">
-        <h2>Bröllopsdagen</h2>
-        <div class="flex flex-col gap-1">
-          <div class="flex gap-4">
-            <div class="font-bold">12:45</div>
-            <div>Busstransport från Stockholm (för de som anmält sig) till Vettershaga brygga</div>
-          </div>
-          <div class="flex gap-4">
-            <div class="font-bold">14:00</div>
-            <div>Båttransport till Väringsö, från Vettershaga brygga</div>
-          </div>
-          <div class="flex gap-4">
-            <div class="font-bold">14:30</div>
-            <div>Ankomst till Väringsö, förfriskningar och möjlighet till att pudra näsan</div>
-          </div>
-          <div class="flex gap-4">
-            <div class="font-bold">15:00</div>
-            <div>Vigselceremoni</div>
-          </div>
-          <div class="flex gap-4">
-            <div class="font-bold">15:30</div>
-            <div>Brudskål, mingel och aktiviteter</div>
-          </div>
-          <div class="flex gap-4">
-            <div class="font-bold">17:00</div>
-            <div>Middag</div>
-          </div>
-          <div class="flex gap-4">
-            <div class="font-bold">??:??</div>
-            <div>Fest och dans</div>
-          </div>
-          <div class="flex gap-4">
-            <div class="font-bold">22:30</div>
-            <div>Vickning</div>
-          </div>
-          <div class="flex gap-4">
-            <div class="font-bold">01:30</div>
-            <div>Båttransport till Vettershaga brygga, från Väringsö</div>
-          </div>
-          <div class="flex gap-4">
-            <div class="font-bold">02:00</div>
-            <div>Busstransport till Stockholm (för de som anmält sig)</div>
-          </div>
-        </div>
-        
-
-        
-      </div>
-      <div class="section background2" id="tal">
-        <div class="flex items-center gap-4">
-          <div class="flex flex-col gap-4">
-            <h2>Tal</h2>
-            <div>Här hittar ni all information som rör vårt bröllop i augusti – tider, plats, klädkod, transport och annat som kan vara bra att veta inför dagen.</div>
-            <div>Vi ber er att OSA senast [datum], mer information om OSA hittar ni här.</div>
-            <div>Hemsidan uppdateras löpande, så kika gärna in igen närmare bröllopet.</div>
-            <div>Vi ser verkligen fram emot att fira tillsammans med er!</div>
-          </div>
-          <div class="flex gap-2">
-            <div>
-              <img width="200px" height="200px" class="rounded-full" src="image.png">
-              <div>Nike Hafström</div>
+      <div class="py-24 px-12 flex flex-col bg-[#FBF1E7]" id="välkomna">
+        <div class="max-w-6xl mx-auto">
+          <div class="flex items-center gap-12">
+            <div class="flex flex-col gap-6 flex-1">
+              <h2 class="text-3xl font-bold mb-2">Varmt välkomna på vårt bröllop!</h2>
+              <div class="text-gray-700 leading-relaxed">Här hittar ni all information som rör vårt bröllop i augusti – tider, plats, klädkod, transport och annat som kan vara bra att veta inför dagen.</div>
+              <div class="text-gray-700 leading-relaxed">Vi ber er att OSA senast <span class="font-semibold">[datum]</span>, mer information om OSA hittar ni här.</div>
+              <div class="text-gray-700 leading-relaxed">Hemsidan uppdateras löpande, så kika gärna in igen närmare bröllopet.</div>
+              <div class="text-gray-700 leading-relaxed font-medium">Vi ser verkligen fram emot att fira tillsammans med er!</div>
             </div>
-            <div>
-              <img width="200px" height="200px" class="rounded-full" src="image.png">
-              <div>Rickard Borgström</div>
+            <div class="flex-shrink-0">
+              <img width="400px" height="400px" class="rounded-lg shadow-lg" src="image.png" alt="Foto av brudparet">
             </div>
           </div>
         </div>
       </div>
-      <div class="section" id="transport">
-        <div class="flex gap-4">
-          <div>
-            <img src="image.png">
-          </div>
+      <div class="py-24 px-12 flex flex-col" id="bröllopsdagen">
+        <div class="max-w-4xl mx-auto">
+          <h2 class="text-3xl font-bold mb-8">Bröllopsdagen</h2>
           <div class="flex flex-col gap-4">
-            <div>Transport</div>
-            <div>Eftersom vi valt att ha bröllopet på en ö i skärgården, kommer vi hjälpa er med transport till och från ön. Båttransporten är bokad för samtliga gäster, till och från Vettershaga brygga.</div>
-            <div>Då det finns ont om parkeringar vid Vettershaga brygga, kommer vi även erbjuda busstransport från och till centrala Stockholm, för er som vill. När ni anmäler er till bröllopet meddelar ni även om ni vill ha plats på bussen till och från Stockholm.</div>
-            <div>Om ni vet att ni behöver åka hem tidigare än 01:30, finns det möjlighet att själva boka båttaxin, Gula båten. Ni förbokar i så fall er båttaxi genom att ringa 0729 42 78 36.</div>
-            <div>Om någon akut skulle ske, finns det självklart möjlighet till båttransport under dagen och kvällen.</div>
+            <div class="flex gap-6">
+              <div class="font-bold text-lg w-20 flex-shrink-0">12:45</div>
+              <div class="text-gray-700">Busstransport från Stockholm (för de som anmält sig) till Vettershaga brygga</div>
+            </div>
+            <div class="flex gap-6">
+              <div class="font-bold text-lg w-20 flex-shrink-0">14:00</div>
+              <div class="text-gray-700">Båttransport till Väringsö, från Vettershaga brygga</div>
+            </div>
+            <div class="flex gap-6">
+              <div class="font-bold text-lg w-20 flex-shrink-0">14:30</div>
+              <div class="text-gray-700">Ankomst till Väringsö, förfriskningar och möjlighet till att pudra näsan</div>
+            </div>
+            <div class="flex gap-6">
+              <div class="font-bold text-lg w-20 flex-shrink-0">15:00</div>
+              <div class="text-gray-700">Vigselceremoni</div>
+            </div>
+            <div class="flex gap-6">
+              <div class="font-bold text-lg w-20 flex-shrink-0">15:30</div>
+              <div class="text-gray-700">Brudskål, mingel och aktiviteter</div>
+            </div>
+            <div class="flex gap-6">
+              <div class="font-bold text-lg w-20 flex-shrink-0">17:00</div>
+              <div class="text-gray-700">Middag</div>
+            </div>
+            <div class="flex gap-6">
+              <div class="font-bold text-lg w-20 flex-shrink-0">??:??</div>
+              <div class="text-gray-700">Fest och dans</div>
+            </div>
+            <div class="flex gap-6">
+              <div class="font-bold text-lg w-20 flex-shrink-0">22:30</div>
+              <div class="text-gray-700">Vickning</div>
+            </div>
+            <div class="flex gap-6">
+              <div class="font-bold text-lg w-20 flex-shrink-0">01:30</div>
+              <div class="text-gray-700">Båttransport till Vettershaga brygga, från Väringsö</div>
+            </div>
+            <div class="flex gap-6">
+              <div class="font-bold text-lg w-20 flex-shrink-0">02:00</div>
+              <div class="text-gray-700">Busstransport till Stockholm (för de som anmält sig)</div>
+            </div>
           </div>
         </div>
-        
       </div>
-      <div class="section background2 flex flex-col gap-2" id="anmälan">
-        <h2>Anmälan</h2>
-        <div>Skicka ett mail till brollopmajasebbe@gmail.com för att anmäla dig, och meddela:</div>
-        <ul class="list-disc">
-          <li>Om ni kan komma på bröllopet</li>
-          <li>Om ni önskar åka med busstransport från och till Stockholm</li>
-          <li>Eventuella matpreferenser eller allergier</li>
-          <li>Om du önskar dryck med eller utan alkohol</li>
-        </ul>
-        <div>Om ni är ett sällskap på flera personer kan ni sammanställa all information i ett gemensamt mail.</div>
-        <div>Vi behöver ert svar senast [datum].</div>
+      <div class="py-24 px-12 flex flex-col bg-[#FBF1E7]" id="tal">
+        <div class="max-w-6xl mx-auto">
+          <div class="flex items-center gap-12">
+            <div class="flex flex-col gap-6 flex-1">
+              <h2 class="text-3xl font-bold mb-2">Tal</h2>
+              <div class="text-gray-700 leading-relaxed">Om ni vill hålla tal under middagen är ni varmt välkomna att göra det! Kontakta våra toastmasters för att anmäla ert tal.</div>
+              <div class="text-gray-700 leading-relaxed">Toastmasters:</div>
+              <div class="text-gray-700 leading-relaxed">Nike Hafström - <a href="mailto:brollopmajasebbe@gmail.com" class="underline">brollopmajasebbe@gmail.com</a></div>
+              <div class="text-gray-700 leading-relaxed">Rickard Borgström - <a href="mailto:brollopmajasebbe@gmail.com" class="underline">brollopmajasebbe@gmail.com</a></div>
+            </div>
+            <div class="flex gap-6 flex-shrink-0">
+              <div class="text-center">
+                <img width="180px" height="180px" class="rounded-full shadow-lg mb-3" src="image.png" alt="Nike Hafström">
+                <div class="font-semibold">Nike Hafström</div>
+              </div>
+              <div class="text-center">
+                <img width="180px" height="180px" class="rounded-full shadow-lg mb-3" src="image.png" alt="Rickard Borgström">
+                <div class="font-semibold">Rickard Borgström</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="py-24 px-12 flex flex-col" id="transport">
+        <div class="max-w-6xl mx-auto">
+          <div class="flex gap-12 items-start">
+            <div class="flex-shrink-0">
+              <img width="400px" class="rounded-lg shadow-lg" src="image.png">
+            </div>
+            <div class="flex flex-col gap-6">
+              <h2 class="text-3xl font-bold">Transport</h2>
+              <div class="text-gray-700 leading-relaxed">Eftersom vi valt att ha bröllopet på en ö i skärgården, kommer vi hjälpa er med transport till och från ön. Båttransporten är bokad för samtliga gäster, till och från Vettershaga brygga.</div>
+              <div class="text-gray-700 leading-relaxed">Då det finns ont om parkeringar vid Vettershaga brygga, kommer vi även erbjuda busstransport från och till centrala Stockholm, för er som vill. När ni anmäler er till bröllopet meddelar ni även om ni vill ha plats på bussen till och från Stockholm.</div>
+              <div class="text-gray-700 leading-relaxed">Om ni vet att ni behöver åka hem tidigare än 01:30, finns det möjlighet att själva boka båttaxin, Gula båten. Ni förbokar i så fall er båttaxi genom att ringa <span class="font-semibold">0729 42 78 36</span>.</div>
+              <div class="text-gray-700 leading-relaxed">Om någon akut skulle ske, finns det självklart möjlighet till båttransport under dagen och kvällen.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="py-24 px-12 flex flex-col bg-[#FBF1E7]" id="anmälan">
+        <div class="max-w-4xl mx-auto">
+          <div class="flex flex-col gap-6">
+            <h2 class="text-3xl font-bold">Anmälan</h2>
+            <div class="text-gray-700 leading-relaxed">Skicka ett mail till <a href="mailto:brollopmajasebbe@gmail.com" class="font-semibold underline">brollopmajasebbe@gmail.com</a> för att anmäla dig, och meddela:</div>
+            <ul class="list-disc list-inside space-y-2 text-gray-700 ml-4">
+              <li>Om ni kan komma på bröllopet</li>
+              <li>Om ni önskar åka med busstransport från och till Stockholm</li>
+              <li>Eventuella matpreferenser eller allergier</li>
+              <li>Om du önskar dryck med eller utan alkohol</li>
+            </ul>
+            <div class="text-gray-700 leading-relaxed">Om ni är ett sällskap på flera personer kan ni sammanställa all information i ett gemensamt mail.</div>
+            <div class="text-gray-700 leading-relaxed font-semibold">Vi behöver ert svar senast <span class="font-bold">[datum]</span>.</div>
+          </div>
+        </div>
       </div>
 
-      <div class="section" id="klädkod">
-        <div class="flex gap-4">
-          <div class="flex flex-col gap-4">
-            <h2>Klädkod: Kavaj</h2>
-            <div>För dig som bär kostym betyder det just kostym – inte smoking eller frack. Kostymen kan vara såväl mörk som ljus. </div>
-            <div>För dig som föredrar klänning, kjol eller byxdress passar det fint i en elegant stil. Mönster eller enfärgad och längd väljer du själv – viktigast är att du känner dig fin och bekväm.</div>
+      <div class="py-24 px-12 flex flex-col" id="klädkod">
+        <div class="max-w-6xl mx-auto">
+          <div class="flex gap-12 items-center">
+            <div class="flex flex-col gap-6 flex-1">
+              <h2 class="text-3xl font-bold">Klädkod: Kavaj</h2>
+              <div class="text-gray-700 leading-relaxed">För dig som bär kostym betyder det just kostym – inte smoking eller frack. Kostymen kan vara såväl mörk som ljus.</div>
+              <div class="text-gray-700 leading-relaxed">För dig som föredrar klänning, kjol eller byxdress passar det fint i en elegant stil. Mönster eller enfärgad och längd väljer du själv – viktigast är att du känner dig fin och bekväm.</div>
+            </div>
+            <div class="flex-shrink-0">
+              <img width="400px" class="rounded-lg shadow-lg" src="image.png" alt="Klädkod">
+            </div>
           </div>
-          <div>
-            <img src="image.png">
-          </div>
-          
         </div>
-        
       </div>
-      <div class="section background2 flex flex-col gap-4 id="gåvor">
-        <h2>Gåvor</h2>
-        <div>Förslag på vad vi önskar oss, bidrag till smekmånad osv osv</div>
+      <div class="py-24 px-12 flex flex-col bg-[#FBF1E7]" id="gåvor">
+        <div class="max-w-4xl mx-auto">
+          <div class="flex flex-col gap-6">
+            <h2 class="text-3xl font-bold">Gåvor</h2>
+            <div class="text-gray-700 leading-relaxed">Er närvaro på vårt bröllop är den finaste gåvan, men om ni vill ge oss något önskar vi oss:</div>
+            <ul class="list-disc list-inside space-y-2 text-gray-700 ml-4">
+              <li>Bidrag till vår smekmånad</li>
+              <li>Upplevelser tillsammans</li>
+              <li>Något för hemmet</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+      <div class="py-16 px-12 flex flex-col">
+        <div class="flex flex-col items-center justify-center gap-6">
+          <div class="text-2xl font-light text-gray-600 tracking-wide">Vi ses i augusti!</div>
+          <div class="text-4xl font-bold tracking-tight">SEBASTIAN & MAJA</div>
+          <div class="mt-4">
+            <img width="200px" height="200px" src="image.png" alt="Illustration av brudparet">
+          </div>
+        </div>
       </div>
     </div>
     
